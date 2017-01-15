@@ -1,0 +1,118 @@
+html{height: 100%;}
+
+body{margin:0;}
+
+.body
+{
+	
+	font-family:'Pacifico' , cursive;
+}
+
+.introduction{
+
+	background-color: yellow
+
+	font-size:60;
+}
+
+.content {
+
+	background-color: hsla(80, 80%, 20%, 0.3);
+
+}
+
+.tester
+{
+
+   font-family:'Pacifico' , cursive;
+   text-decoration: underline;
+ font-weight: 900
+   font-stretch: expanded;
+   
+}
+
+.introtext{
+
+	font-size: 20
+
+}
+
+#second{
+
+	color:maroon;
+}
+
+#first
+{
+background-color: hsla(120, 100%, 50%, 0.4);
+
+}
+
+.Third
+{
+	
+background-color:  hsla(160, 0, 50%, 0.4);
+
+}
+
+.main{
+
+
+background-color: hsla(244, 100%, 50%, 0.4);
+}
+
+.redBG{
+	background:red;
+}
+
+.blueBG{
+	background:blue;
+}
+
+.greenBG{
+	background:green;
+}
+
+.container-fluid{
+
+  background:yellow;
+   font-family:'Pacifico' , cursive;
+
+}
+
+.test
+{
+
+
+
+}
+
+
+.meintro{
+
+	
+    font-family:'Pacifico' , cursive;
+    font-size:50;
+    background-color:green
+	
+}
+
+
+.words{
+
+	
+    font-family:'Pacifico' , cursive;
+    font-size:30;
+    background-color:green
+	
+}
+
+
+.services{
+
+	
+    font-family:'Pacifico' , cursive;
+    font-size:30;
+    background-color:green
+	
+}

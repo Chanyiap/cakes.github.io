@@ -1,0 +1,191 @@
+
+
+
+
+<head>
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href= "myfirstcss.css">
+
+</head>
+
+
+<div >
+<h1> HELLO!!!!</h1>
+
+<input type="text" id="field1"/>
+<input type="text" id="field2" />
+<input type=button onclick="foo('field1','field2');"/>
+
+
+</div>
+
+
+<div class="introduction" id="first">
+
+<font size="7">
+
+<p>Hello my name is Chan Yiap</p>
+
+<p class="introtext"> 
+   My background has nothing currently so nothing to describe about me
+
+</p>
+
+</font>
+
+<p style="text-align:center"> 
+
+<img src="http://www.bbcgoodfood.com/sites/default/files/styles/carousel_small/public/user-collections/my-colelction-image/2015/12/lighter-chocolate-cake-with-chocolate-icing.jpg?itok=eEDrAHrk" style= "width:300" > </img>
+</p>
+
+<a href="#content"> About me</a>
+
+</div>
+
+
+
+<div class="introduction">
+
+
+<div class="introduction">
+
+<p style="text-align:center"> 
+
+
+
+<img src="http://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg" style= "width:300" > </img>
+</p>
+
+<p class="introtext"> 
+My main thing is doing programming and I will help you to do programming if you need help. 
+I came from an IT background with holding a degree currently
+
+</p>
+</div>
+
+</div >
+
+
+<div class="content" id=content>
+<p> 
+  Here are my list of profiles you can reference on how I work for people into building awesome webpages
+
+</p>
+
+<input type="button" onclick="Hellome();" name="ok" value="Click Me"  />
+
+
+<ol>
+
+
+<li style=" color:red; ">red</li>	
+<li style=" color:blue; ">blue</li>	
+<li style=" color:green; ">green</li>	
+
+</ol>
+
+
+<a href="http://www.facebook.com.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>    
+
+<a style=" font-family: 'Indie Flower', cursive;"href="http://www.youtube.com"><i class="fa fa-youtube" aria-hidden="false"></i></a>
+
+
+
+</div >
+
+
+<div class ="Third">
+
+
+<p style="text-align:center"> 
+
+<img src="http://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg" style= "width:300" > </img>
+</p>
+
+<p class="tester" style="text-align:center"> 
+
+  Page 2
+  Here are my list of profiles you can reference on how I work for people into building awesome webpages
+
+</p>
+
+</p>
+
+
+
+</div>
+
+
+
+
+ <input type="text" name="firstname">
+
+<input type="button" id="clickMe" name="ok" value="Click Me"  />
+
+
+<div class="col-md-6 col-sm-6 redBG">
+
+test
+</div>
+
+
+
+
+</body>
+
+<script src="myfirstjavascript.js"></script>
+
+
+<script type="text/javascript">
+function Hello(){
+   alert("Hello Javascript!");;
+}
+
+function Hellome(){
+   alert("Hello me!!");;
+}
+
+
+function MyImage(){
+   alert("U mouse my image");;
+}
+
+
+   
+  function foo(a,b) {
+        elemA = document.getElementById(a).value;
+        elemB = document.getElementById(b).value;
+        alert(elemA + elemB);
+     
+   }
+
+function initElement()
+{
+  var anything = document.getElementById("first");
+  anything.onmouseover = showMouseOver;
+  anything.onmouseout = showMouseOut;
+
+}
+
+   function showMouseOver()
+   {
+      var foo = document.getElementById("first");
+      foo.innerHTML = 'mouse over detected' ;
+      foo.style="color:red;";
+
+   }
+
+ function showMouseOut()
+   {
+      var foo = document.getElementById("first");
+      foo.innerHTML = 'mouse out detected' ;
+      foo.style="color:blue;";
+
+   }
+
+</script>
